@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "829970530134",
+    "project_id": "aigun-734fd",
+    "storage_bucket": "aigun-734fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829970530134:android:6b5395a57142d89b8620f7",
+        "android_client_info": {
+          "package_name": "com.adiuvo.aigun_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829970530134-idmadvemmr1im4m5tibf1giqb5508k0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZsWQPZcE_QDF2eEHpa38JyVXUYnmlETE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829970530134-idmadvemmr1im4m5tibf1giqb5508k0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829970530134:android:97a2c0dcd5d374188620f7",
+        "android_client_info": {
+          "package_name": "com.adiuvo.aigun_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829970530134-idmadvemmr1im4m5tibf1giqb5508k0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZsWQPZcE_QDF2eEHpa38JyVXUYnmlETE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829970530134-idmadvemmr1im4m5tibf1giqb5508k0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

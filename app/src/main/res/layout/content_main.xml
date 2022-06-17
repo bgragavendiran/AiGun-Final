@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="751dp"
+        android:layout_marginBottom="-63dp" >
+
+
+    </WebView>
+
+    <ImageView
+        android:id="@+id/notesEntry"
+        android:layout_width="58dp"
+        android:layout_height="86dp"
+        android:layout_alignTop="@+id/webView"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/notes_icon" />
+
+</RelativeLayout>

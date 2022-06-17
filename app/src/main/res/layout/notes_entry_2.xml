@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="413dp"
+        android:layout_height="735dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:visibility="visible"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/goNextbutton"
+            android:layout_width="84dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginBottom="80dp"
+            android:backgroundTint="#009688"
+            android:src="@drawable/ic_camera_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/goNextTextview"
+            android:layout_width="85dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="80dp"
+            android:text="CAMERA MODE"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="86dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginEnd="170dp"
+            android:layout_marginBottom="170dp"
+            android:background="@drawable/oval_button"
+            android:text="Submit"
+            android:textColor="#323232"
+            android:textColorHint="#FF9800"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="196dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="180dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="310dp"
+            android:layout_marginBottom="532dp"
+            android:text="Pregnancy Diagnosis :"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="310dp"
+            android:layout_marginBottom="400dp"
+            android:text="Notes and Feedback :"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/nF"
+            android:layout_width="207dp"
+            android:layout_height="235dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="240dp"
+            android:ems="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/oval_aigun"
+        android:text="Form3-Pregnancy and General details"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

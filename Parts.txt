@@ -1,0 +1,16 @@
+
+
+1. RPi 3
+2. Charger Board
+3. Switch
+4. Battery 
+5. Acrylic tube
+6. USB camera
+
+
+Motion Tutorial Link:
+
+1. https://www.instructables.com/id/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/
+
+
+2. https://tutorials-raspberrypi.com/raspberry-pi-security-camera-livestream-setup/
